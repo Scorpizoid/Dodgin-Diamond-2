@@ -1,0 +1,21 @@
+; The package file for Dodgin' Diamond 2 shooter game for Nokia 9210
+; Made by Sami Vuori for S80 v1.0
+
+;The language is default which is English
+&EN
+
+;Installation data
+#{"DD2"},(0x20021150),1,0,1
+
+;Installation files
+;Path on PC - Path on phone
+"DD2.app"-"!:\System\Apps\DD2\DD2.app"
+"DD2.aif"-"!:\System\Apps\DD2\DD2.aif"
+"DD2.mbm"-"!:\System\Apps\DD2\DD2.mbm"
+"DD2.exe"-"!:\System\Apps\DD2\DD2.exe"
+"README-SDL.txt"-"!:\System\Apps\DD2\Data\README-SDL.txt"
+"data\dd2.cfg"-"!:\System\Apps\DD2\Data\DD2.cfg"
+"data\dd2-hiscore"-"!:\System\Apps\DD2\Data\DD2-hiscore"
+"data\game.act"-"!:\System\Apps\DD2\Data\game.act"
+"data\gfx.bmp"-"!:\System\Apps\DD2\Data\gfx.bmp"
+"data\dd2.cfg"-"!:\System\Apps\DD2\Data\DD2.cfg"

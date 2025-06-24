@@ -1,0 +1,13 @@
+APP DD2,&20021150
+  ICON "dd2.mbm"
+ENDA
+
+INCLUDE "System.oxh"
+
+PROC DD2:
+  IF EXIST("D:\System\Apps\DD2\DD2.exe")
+    SyRunExe&:("D:\System\Apps\DD2\DD2.exe")
+  ELSE
+    SyRunExe&:("C:\System\Apps\DD2\DD2.exe")
+  ENDIF
+ENDP
